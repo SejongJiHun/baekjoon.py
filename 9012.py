@@ -1,7 +1,7 @@
 import sys
 input = input = sys.stdin.readline
 
-def check_vps(ps)
+def check_vps(ps):
     stack = []
     for char in ps:
         if char == '(':
